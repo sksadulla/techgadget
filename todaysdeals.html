@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest Tech Gadget Reviews | TechGadget Reviews</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <nav class="top-nav">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">TechGadget<span>Reviews</span></a>
+            </div>
+            <div class="search-bar">
+                <select>
+                    <option>All Categories</option>
+                    <option>Smartphones</option>
+                    <option>Laptops</option>
+                    <option>Smartwatches</option>
+                    <option>Headphones</option>
+                    <option>Cameras</option>
+                </select>
+                <input type="text" placeholder="Search for products...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="nav-links">
+                <a href="account.html"><i class="fas fa-user"></i> Account</a>
+                <a href="help.html"><i class="fas fa-question-circle"></i> Help</a>
+                <a href="contact.html"><i class="fas fa-phone-alt"></i> Contact</a>
+                <a href="cart.html"><i class="fas fa-shopping-cart"></i> Cart</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Navigation Bar -->
+    <nav class="main-nav">
+        <div class="container">
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="reviews.html" class="active"><i class="fas fa-star"></i> Reviews</a></li>
+                <li><a href="categories.html"><i class="fas fa-list"></i> Categories</a></li>
+                <li><a href="deals.html"><i class="fas fa-tag"></i> Today's Deals</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> About Us</a></li>
+                <li><a href="team.html"><i class="fas fa-users"></i> Our Team</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="index.html">Home</a> &gt; <span>Reviews</span>
+        </div>
+    </div>
+
+    <!-- Reviews Main Content -->
+    <main class="reviews-main">
+        <div class="container">
+            <h1>Latest Tech Gadget Reviews</h1>
+            
+            <!-- Filter Options -->
+            <div class="filter-options">
+                <div class="filter-group">
+                    <label for="category">Category:</label>
+                    <select id="category">
+                        <option value="all">All Categories</option>
+                        <option value="smartphones">Smartphones</option>
+                        <option value="laptops">Laptops</option>
+                        <option value="smartwatches">Smartwatches</option>
+                        <option value="headphones">Headphones</option>
+                        <option value="cameras">Cameras</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="sort">Sort By:</label>
+                    <select id="sort">
+                        <option value="newest">Newest First</option>
+                        <option value="rating">Highest Rating</option>
+                        <option value="price-high">Price: High to Low</option>
+                        <option value="price-low">Price: Low to High</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="price-range">Price Range:</label>
+                    <select id="price-range">
+                        <option value="all">All Prices</option>
+                        <option value="0-10000">Under ₹10,000</option>
+                        <option value="10000-30000">₹10,000 - ₹30,000</option>
+                        <option value="30000-60000">₹30,000 - ₹60,000</option>
+                        <option value="60000-100000">₹60,000 - ₹1,00,000</option>
+                        <option value="100000+">Over ₹1,00,000</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Reviews Grid -->
+            <div class="reviews-grid">
+                <!-- Review Item 1 -->
+                <article class="review-item">
+                    <div class="review-image">
+                        <img src="https://via.placeholder.com/300x300?text=iPhone+14" alt="iPhone 14 Pro Max">
+                        <span class="rating">4.8 <i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="review-content">
+                        <h2><a href="review-iphone14.html">Apple iPhone 14 Pro Max Review</a></h2>
+                        <div class="review-meta">
+                            <span class="date"><i class="far fa-calendar-alt"></i> October 15, 2023</span>
+                            <span class="author"><i class="fas fa-user"></i> By Rajesh Kumar</span>
+                        </div>
+                        <div class="price">₹129,900</div>
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4>Pros</h4>
+                                <ul>
+                                    <li>Brilliant 120Hz ProMotion display</li>
+                                    <li>Excellent 48MP main camera</li>
+                                    <li>Powerful A16 Bionic chip</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4>Cons</h4>
+                                <ul>
+                                    <li>Very expensive</li>
+                                    <li>Heavy and bulky</li>
+                                    <li>No significant battery improvement</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="review-iphone14.html" class="btn">Read Full Review</a>
+                    </div>
+                </article>
+
+                <!-- Review Item 2 -->
+                <article class="review-item">
+                    <div class="review-image">
+                        <img src="https://via.placeholder.com/300x300?text=MacBook+Pro" alt="MacBook Pro M2">
+                        <span class="rating">4.9 <i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="review-content">
+                        <h2><a href="review-macbook-pro.html">MacBook Pro 14-inch M2 Review</a></h2>
+                        <div class="review-meta">
+                            <span class="date"><i class="far fa-calendar-alt"></i> October 10, 2023</span>
+                            <span class="author"><i class="fas fa-user"></i> By Priya Sharma</span>
+                        </div>
+                        <div class="price">₹1,99,900</div>
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4>Pros</h4>
+                                <ul>
+                                    <li>Incredible performance with M2 Pro chip</li>
+                                    <li>Best-in-class display (XDR)</li>
+                                    <li>Excellent battery life</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4>Cons</h4>
+                                <ul>
+                                    <li>Very expensive</li>
+                                    <li>Limited upgrade options</li>
+                                    <li>Notch design may not appeal to all</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="review-macbook-pro.html" class="btn">Read Full Review</a>
+                    </div>
+                </article>
+
+                <!-- Review Item 3 -->
+                <article class="review-item">
+                    <div class="review-image">
+                        <img src="https://via.placeholder.com/300x300?text=Galaxy+Watch" alt="Galaxy Watch 5 Pro">
+                        <span class="rating">4.5 <i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="review-content">
+                        <h2><a href="review-galaxy-watch.html">Samsung Galaxy Watch 5 Pro Review</a></h2>
+                        <div class="review-meta">
+                            <span class="date"><i class="far fa-calendar-alt"></i> October 5, 2023</span>
+                            <span class="author"><i class="fas fa-user"></i> By Amit Patel</span>
+                        </div>
+                        <div class="price">₹44,999</div>
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4>Pros</h4>
+                                <ul>
+                                    <li>Excellent battery life (3-4 days)</li>
+                                    <li>Premium titanium build</li>
+                                    <li>Advanced health tracking features</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4>Cons</h4>
+                                <ul>
+                                    <li>Bulky design</li>
+                                    <li>Limited iOS compatibility</li>
+                                    <li>No rotating bezel</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="review-galaxy-watch.html" class="btn">Read Full Review</a>
+                    </div>
+                </article>
+
+                <!-- Review Item 4 -->
+                <article class="review-item">
+                    <div class="review-image">
+                        <img src="https://via.placeholder.com/300x300?text=Sony+Headphones" alt="Sony WH-1000XM5">
+                        <span class="rating">4.7 <i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="review-content">
+                        <h2><a href="review-sony-headphones.html">Sony WH-1000XM5 Review</a></h2>
+                        <div class="review-meta">
+                            <span class="date"><i class="far fa-calendar-alt"></i> September 28, 2023</span>
+                            <span class="author"><i class="fas fa-user"></i> By Neha Gupta</span>
+                        </div>
+                        <div class="price">₹29,990</div>
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4>Pros</h4>
+                                <ul>
+                                    <li>Best-in-class noise cancellation</li>
+                                    <li>Superb sound quality</li>
+                                    <li>Comfortable for long sessions</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4>Cons</h4>
+                                <ul>
+                                    <li>Expensive</li>
+                                    <li>No IP rating for water resistance</li>
+                                    <li>Case is bulkier than previous model</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="review-sony-headphones.html" class="btn">Read Full Review</a>
+                    </div>
+                </article>
+
+                <!-- Review Item 5 -->
+                <article class="review-item">
+                    <div class="review-image">
+                        <img src="https://via.placeholder.com/300x300?text=Pixel+7+Pro" alt="Google Pixel 7 Pro">
+                        <span class="rating">4.6 <i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="review-content">
+                        <h2><a href="review-pixel7pro.html">Google Pixel 7 Pro Review</a></h2>
+                        <div class="review-meta">
+                            <span class="date"><i class="far fa-calendar-alt"></i> September 20, 2023</span>
+                            <span class="author"><i class="fas fa-user"></i> By Vikram Singh</span>
+                        </div>
+                        <div class="price">₹84,999</div>
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4>Pros</h4>
+                                <ul>
+                                    <li>Best Android camera system</li>
+                                    <li>Clean software with long updates</li>
+                                    <li>Excellent display</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4>Cons</h4>
+                                <ul>
+                                    <li>Tensor G2 chip lags behind competitors</li>
+                                    <li>Battery life could be better</li>
+                                    <li>Limited availability in India</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="review-pixel7pro.html" class="btn">Read Full Review</a>
+                    </div>
+                </article>
+
+                <!-- Review Item 6 -->
+                <article class="review-item">
+                    <div class="review-image">
+                        <img src="https://via.placeholder.com/300x300?text=AirPods+Pro+2" alt="AirPods Pro 2">
+                        <span class="rating">4.8 <i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="review-content">
+                        <h2><a href="review-airpods-pro2.html">Apple AirPods Pro 2 Review</a></h2>
+                        <div class="review-meta">
+                            <span class="date"><i class="far fa-calendar-alt"></i> September 15, 2023</span>
+                            <span class="author"><i class="fas fa-user"></i> By Ananya Reddy</span>
+                        </div>
+                        <div class="price">₹26,900</div>
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4>Pros</h4>
+                                <ul>
+                                    <li>Improved noise cancellation</li>
+                                    <li>Excellent sound quality</li>
+                                    <li>Seamless integration with Apple devices</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4>Cons</h4>
+                                <ul>
+                                    <li>Expensive</li>
+                                    <li>Limited features with Android</li>
+                                    <li>Battery case still uses Lightning</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="review-airpods-pro2.html" class="btn">Read Full Review</a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#"><i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Newsletter Signup -->
+    <section class="newsletter">
+        <div class="container">
+            <h2>Stay Updated with Latest Tech Reviews</h2>
+            <p>Subscribe to our newsletter for weekly tech gadget reviews and deals</p>
+            <form>
+                <input type="email" placeholder="Enter your email address">
+                <button type="submit" class="btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>About TechGadget Reviews</h3>
+                    <p>We provide honest, unbiased reviews of the latest tech gadgets to help you make informed purchasing decisions.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="reviews.html">Latest Reviews</a></li>
+                        <li><a href="categories.html">Categories</a></li>
+                        <li><a href="deals.html">Today's Deals</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Help & Info</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="team.html">Our Team</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="help.html">Help Center</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> contact@techgadgetreviews.com</p>
+                        <p><i class="fas fa-phone"></i> +91 9876543210</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 TechGadget Reviews. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Use</a>
+                    <a href="sitemap.html">Site Map</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
